@@ -1,7 +1,7 @@
 function mostrarDataHora() {
     const date = new Date();
    
-    console.log(date.toLocaleString());
+    console.log(date.toLocaleDateString());
 
     document.getElementById('date').innerText = date.toLocaleString();
 }
